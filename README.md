@@ -21,6 +21,7 @@ Based on this fact, we know:
 ## Example
 Set:
 |1|9|5|12|13|6|17|19|
+|-|-|-|--|--|-|--|--|
 k: 3
 
 max = 0
