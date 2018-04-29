@@ -34,7 +34,7 @@ max = 0
 | 1             | 3             |
 | 2             | 2             |
 
-- At least one %k = 0. (+1)                                  
+- At least one %k = 0  (+1)                                  
 - No %k = 1.5          (+0)
 - %k values 1 and 2 are bad pairs. %k = 1 is more common (+3)
 
