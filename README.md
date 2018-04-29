@@ -35,10 +35,10 @@ max = 0
 | 2             | 2             |
 
 At least one %k = 0.                                   
-- max = 0 + 1 = 1
+max = 0 + 1 = 1
 No %k = 1.5                                             
-- max = 1 + 0 = 1
+max = 1 + 0 = 1
 %k values 1 and 2 are bad pairs. %k = 1 is more common
-- max = 1 + 3 = 4
+max = 1 + 3 = 4
 
 Size of maximal subset: 4
