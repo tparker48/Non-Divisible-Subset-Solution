@@ -14,7 +14,6 @@
 int nonDivisibleSubset(int k, std::vector<int> S){
 	int *a = new int[k];			// a[i] holds amount of elements with %k = i
 	int max(0);						// returned value
-	
 
 	for(int i = 0; i < k; i++){		// Initialize a[]
 		a[i] = 0;
@@ -24,7 +23,7 @@ int nonDivisibleSubset(int k, std::vector<int> S){
 	}
 
 	if(a[0] > 0) max++;			// At most one element with %k=0 is allowed
-	if(k%2 == 0 && a[k/2] > 0){				// At most one element with %k=k/2 if k is even
+	if(k%2 == 0 && a[k/2] > 0){		// At most one element with %k=k/2 if k is even
 		a[k/2] = 1;
 	}
 
@@ -36,7 +35,6 @@ int nonDivisibleSubset(int k, std::vector<int> S){
 			max+= a[k-p];
 		}
 	}
-
 	delete [] a;			
 	return max;
 }
