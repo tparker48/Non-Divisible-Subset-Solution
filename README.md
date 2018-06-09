@@ -5,6 +5,7 @@
 
 # Solution
 Given three integers x, y, and k:
+
   if and only if x%k + y%k = (0 or k), then x + y is divisible by k.
   
 Based on this, we know:
