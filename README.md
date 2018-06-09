@@ -1,7 +1,7 @@
 # Non-Divisible-Subset
 [Link to Challenge](https://www.hackerrank.com/challenges/non-divisible-subset/problem)
 
-"Given a set of distinct integers, print the size of a maximal subset of  where the sum of any  numbers in  is not evenly divisible by ."
+"Given a set of distinct integers, print the size of a maximal subset of  where the sum of any  numbers in  is not evenly divisible by k."
 
 # Solution
 Given three integers x, y, and k:
