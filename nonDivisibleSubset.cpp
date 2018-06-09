@@ -24,7 +24,7 @@ int nonDivisibleSubset(int k, std::vector<int> S){
 	}
 
 	if(a[0] > 0) max++;			// At most one element with %k=0 is allowed
-	if(k%2 == 0){				// At most one element with %k=k/2 if k is even
+	if(k%2 == 0 && a[k/2] > 0){				// At most one element with %k=k/2 if k is even
 		a[k/2] = 1;
 	}
 
