@@ -18,7 +18,7 @@ int nonDivisibleSubset(int k, std::vector<int> S){
 	for(int i = 0; i < k; i++){		// Initialize a[]
 		a[i] = 0;
 	}
-	for(int j = 0; j < S.size(); j++){ 	// Compute and count all %k values
+	for(int j = 0; j < S.size(); j++){
 		a[S[j] % k]++;
 	}
 
@@ -27,8 +27,8 @@ int nonDivisibleSubset(int k, std::vector<int> S){
 		a[k/2] = 1;
 	}
 
-	for(int p = 1; p <= k/2; p++){		// for "bad" pairs of %k, choose whichever
-		if(a[p] > a[k-p]){		// is more popular to add to subset
+	for(int p = 1; p <= k/2; p++){		// for conflicting pairs of %k, choose whichever
+		if(a[p] > a[k-p]){		// is more popular and add to subset
 			max+= a[p];
 		}
 		else{
