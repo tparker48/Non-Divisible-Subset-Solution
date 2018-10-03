@@ -13,7 +13,7 @@
 //		divisible by k.
 int nonDivisibleSubset(int k, std::vector<int> S){
 	int *a = new int[k];			// a[i] holds amount of elements with %k = i
-	int max(0);						// returned value
+	int max(0);				// returned value
 
 	for(int i = 0; i < k; i++){		// Initialize a[]
 		a[i] = 0;
